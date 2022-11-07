@@ -1,0 +1,1 @@
+alert("to jest tekts wyświetlany przez strypt")

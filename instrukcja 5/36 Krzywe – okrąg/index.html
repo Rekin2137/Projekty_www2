@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>okrąg</title>
+  <style>
+    canvas {
+      border: 1px dashed black;
+    }
+  </style>
+  <script>
+    var canvas = document.getElementById("drawingCanvas");
+    var context = canvas.getContext("2d");
+
+    var centerX = 150;
+    var centerY = 300;
+    var radius = 100;
+    var startingAngle = 1.25 * Math.PI;
+    var endingAngle = 1.75 * Math.PI;
+
+    context.arc(centerX, centerY, radius, startingAngle,
+            endingAngle);
+    context.stroke();
+
+    }
+  </script>
+</head>
+<body>
+<canvas id="drawingCanvas" width="500" height="300"></canvas>
+</body>
+</html>

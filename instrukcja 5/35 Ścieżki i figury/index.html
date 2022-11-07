@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Trójkąt</title>
+  <style>
+    canvas {
+      border: 1px dashed black;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      var canvas = document.getElementById("drawingCanvas");
+      var context = canvas.getContext("2d");
+      context.moveTo(250,250);
+      context.lineTo(50,10);
+      context.lineTo(450,10);
+      context.closePath();
+      6
+      // Pokrywa pole trójkąta kolorem.
+      context.fillStyle = "blue";
+      context.fill();
+      // Rysuje krawędzie.
+      context.lineWidth = 10;
+      context.strokeStyle = "red";
+      context.stroke();
+    };
+  </script>
+</head>
+<body>
+<canvas id="drawingCanvas" width="500" height="300"></canvas>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form action="http://wp.pl" method="post" />
+    <fieldset>
+        <legend> Zostaw swój komentarz
+        </legend>
+    <input type="hidden" name="to" value="twój@adres-email.pl" />
+    <input type="hidden" name="subject" value="Temat wiadomości" />
+        <dl>
+            <dt><strong>Imię:</strong></dt>
+
+        <dd>
+            <input type="text" name="imię" size="30">
+        </dd>
+            <dt><strong>E-mail:</strong></dt>
+            <dd>
+                <input type="email" name="email" size="30">
+            </dd>
+            <dt><strong>Komentarz:</strong></dt>
+            <dd>
+                <textarea name="opinie" rows="30" cols="50"> </textarea>
+            </dd>
+            <p>
+                <input type="sumbit" value="wyślij">
+            </p>
+        </dl>
+    </fieldset>
+</body>
+</html>

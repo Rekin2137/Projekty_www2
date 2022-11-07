@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    color: bisque;
+    background-color: blue;
+    text-align: center;
+    height: 90px;
+}
+nav{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 30px;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}
+article{
+    background-color: red;
+    color:brown;
+    width: 70%;
+    float: left;
+    height: 200px;
+    padding: 30px;
+}
+aside{
+    background-color: purple;
+    color: pink;
+    width: 30%;
+    float: left;
+    height: 200px;
+    padding: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+section{
+    border: 1px solid green;
+    height: 100px;
+}
