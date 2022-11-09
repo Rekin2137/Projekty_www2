@@ -30,4 +30,9 @@ nav{
 article{
     width: 65%;
     float:left;
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+    border: black 1px solid;
+
 }
