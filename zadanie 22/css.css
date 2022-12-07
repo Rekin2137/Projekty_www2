@@ -1,0 +1,35 @@
+#header{
+    color: orange;
+    text-align: center;
+    background-color: black;
+
+
+}
+#blok_lewy_górny{
+    float: left;
+    background-color: gray;
+    width: 30%;
+    height: 90%;
+
+}
+#blok_g{
+    float: left;
+    background-color:yellow ;
+    width: 70%;
+    height: 90%;
+
+}
+
+
+#stopka{
+background-color: black;
+    color: orange;
+    text-align: center;
+width: 100%;
+    float: left;
+
+}
+body{
+    margin: 0px;
+}
+

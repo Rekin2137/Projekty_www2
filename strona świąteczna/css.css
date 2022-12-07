@@ -1,0 +1,35 @@
+#obrazki{
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+#naglowek{
+    color: white;
+    background-color: #444444;
+    text-align: center;
+    margin: 0px;
+
+}
+#tekst{
+    float: right;
+    width: 40%;
+    background-color: white;
+    height: 425px;
+}
+#linki{
+    width: 60%;
+    height: 425px;
+    float: left;
+    color: blue;
+    background-image: url('jgafs.jpeg');
+
+}
+body{
+    background-color: crimson;
+    margin: 10px;
+}
+a{
+    color: black;
+
+}

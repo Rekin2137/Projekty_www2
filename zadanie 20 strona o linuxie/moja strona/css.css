@@ -48,11 +48,21 @@ body
     border-right: 2px dotted #cccccc;
 }
 
+#linux
+{
+    color: white;
+    float:right;
+    padding: 20px;
+    width: 138px;
+    text-align: center;
+    border-left: 2px dotted #cccccc;
+    display: flex;
+}
 #topbarR
 {
     float: left;
     padding: 20px;
-    width: 760px;
+    width: 580px;
     font-size: 16px;
     text-align: justify;
 }
