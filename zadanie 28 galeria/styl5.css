@@ -1,0 +1,53 @@
+*{
+    font-family: Verdana;
+    margin: 0px;
+}
+#baner{
+    background-color: #9692B1;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+#panel_lewy{
+    background-color: #9692B1;
+    color: white;
+    width: 20%;
+    height: 750px;
+    float: left;
+}
+#panelPrawy1{
+    background-color: #FFF4CC;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    float:left;
+
+}
+#panelPrawy2{
+    background-color: #DBCC93;
+    width: 80%;
+    height: 450px;
+    text-align: center;
+    float:left;
+
+
+
+}
+#stopka{
+        background-color: #9692B1;
+    color: white;
+    text-align: right;
+}
+a{
+    color: white;
+}
+#panelPrawy1 > img{
+    width: 15%;
+    padding: 20px;
+}
+#panelPrawy2 > img{
+    border: #9692B1 4px solid;
+}
+#panelPrawy2 > img:hover{
+    border: gray 4px solid;
+}

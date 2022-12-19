@@ -1,0 +1,49 @@
+body{
+
+    margin-left: 15%;
+    padding: 0px;
+    max-width: 1000px;
+
+}
+#lista{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 230px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+#naglowek {
+    border-bottom: 2px white dashed;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 1000px;
+    height: 40px;
+    font-family: Arial;
+}
+ul.a{
+    list-style-type: lower-alpha;
+}
+
+#stopka{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 1000px;
+    height: 40px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial;
+}
+#obrazek{
+    background: url("img/deadpool1-gallery-image.jpg");
+    width: 1000px;
+    height: 538px;
+}
