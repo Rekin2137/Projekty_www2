@@ -1,0 +1,21 @@
+*{
+    color: red;
+}
+p{
+    background-color: black;
+}
+.lista{
+    background-color: midnightblue;
+}
+#wow{
+    background-color: #DBCC93;
+}
+p > a {
+ color:white;
+}
+legend h2{
+    font-family: "Comic Sans MS";
+}
+.lista + fieldset {
+    color: #9692B1;
+}
