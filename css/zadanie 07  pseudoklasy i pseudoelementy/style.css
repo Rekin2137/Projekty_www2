@@ -1,0 +1,22 @@
+*{
+    background-color: midnightblue;
+}
+div {
+    color: burlywood;
+}
+div:hover{
+    background-color: white;
+    color: black;
+}
+a{
+    color blueviolet;
+}
+a:link{
+    color red;
+}
+p:first-letter{
+    font-size: 150%;
+}
+#tekst:hover{
+    color white;
+}
