@@ -1,0 +1,60 @@
+
+#zdjęcie1{
+
+    width: 450px;
+    transition: all 0.2s ease-in-out;
+
+}
+#zdjęcie2{
+
+    width: 450px;
+    transition: transform .2s ease-in-out;
+}
+#zdjęcie3{
+    width: 450px;
+
+}
+*{
+    background-color: #555555;
+}
+header {
+    text-align: center;
+
+}
+#zdjęcie1:hover {
+    transform: rotate(5deg);
+    transition: all 0.4s ease-in-out;
+}
+#zdjęcie2{
+    transition: transform 2s ease-in-out;
+}
+#zdjęcie2:hover{
+    transform: skew(180deg);
+
+}
+.overlay{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.overlay .link{
+    position: absolute;
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #111;
+    left: 200px;
+    bottom: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.overlay:hover .link{
+    opacity: 0.8;
+}
+.postcard
+{
+    display: inline-block;
+    width: 460px;
+    text-align: center;
+    padding: 5px;
+}
