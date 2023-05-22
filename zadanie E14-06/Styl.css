@@ -1,0 +1,46 @@
+#kontener{
+    width: 1000px;
+    margin: auto;
+}
+*{
+    background-color: #99FFCC;
+}
+#blok_banera{
+    background-color: #99FF66;
+    height: 200px;
+}
+#blok_menu{
+    background-color: #66CCFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1000px;
+    text-align: center;
+ display: block;
+    list-style-type: none;
+
+
+}
+#kolumna1, #kolumna2,#kolumna3{
+    width: 310px;
+    padding:10px;
+}
+#stópka{
+    text-align: right;
+    background-color: #66CCFF;
+    color:  #006666;
+    height: 30px;
+    padding: 20px;
+
+}
+#blok_menu > a{
+    color:  #006666;
+    margin: 50px;
+    font-size: 200%;
+}
+h2,h3 {
+    text-align: center;
+}
+ul{list-style: none}
+#blok_menu >li{
+    float: left;
+}

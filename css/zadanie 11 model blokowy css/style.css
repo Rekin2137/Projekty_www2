@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+    border-width: 7px;
+
+}
+div:nth-child(2n){
+    background-color: lime;
+}
+
+div:nth-child(1){
+    border-style: dotted;
+    border-color: red;
+}
+div:nth-child(2){
+    border-style: dashed;
+    border-color: red;
+}
+div:nth-child(3){
+    border-style: solid;
+    border-color: red;
+}
+div:nth-child(4){
+    border-style: double;
+    border-color: red;
+}
+div:nth-child(5){
+    border-style: groove;
+    border-color: red;
+}
+div:nth-child(6){
+    border-style: ridge;
+    border-color: red;
+}
+div:nth-child(7){
+    border-style: inset;
+    border-color: red;
+}
+div:nth-child(8){
+    border-style: outset;
+    border-color: red;
+}

@@ -1,0 +1,58 @@
+#cialo{
+    margin-top:5px;
+    margin-left: 100px;
+}
+#menu{
+    width: 200px;
+    height: 650px;
+    padding:20px;
+    background-color: aquamarine;
+    float: left;
+}
+body{
+    background-color: black;
+}
+#podpis{
+    background-color: white;
+    float: left;
+    width: 1000px;
+    text-align: center;
+}
+#obrazek1 {
+    width: 1000px;
+    height: 600px;
+    float: left;
+}
+#stopka{
+    background-color: cyan;
+    height: 72px;
+    float:  left;
+    width: 1000px;
+}
+#obrazek2{
+    width: 1000px;
+    height: 600px;
+    float: left;
+    background-color: chartreuse;
+}
+#obrazek2 > img{
+    width: 500px;
+    height: 400px;
+    background-color: chartreuse;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#podpis2{
+    padding-top: 72px;
+    background-color: chartreuse;
+    float: left;
+    width: 1000px;
+    text-align: center;
+}
+#stopka2{
+    background-color: cyan;
+    height: 100px;
+    float:  left;
+    width: 1240px;
+}

@@ -14,7 +14,7 @@
     width: 450px;
 
 }
-*{
+body{
     background-color: #555555;
 }
 header {
@@ -34,21 +34,26 @@ header {
 }
 .overlay{
     position: relative;
-    width: auto;
-    height: auto;
+    width: 450px;
+    height: 278px;
 }
-.overlay .link{
+
+.overlay .link
+{
+    font-family: Arial;
     position: absolute;
     display: block;
-    width: auto;
-    height: auto;
-    background-color: #111;
-    left: 200px;
+    width: 450px;
+    height: 65px;
+    background-color: #128870;
+    left: 0px;
     bottom: 0px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
-.overlay:hover .link{
+
+.overlay:hover .link
+{
     opacity: 0.8;
 }
 .postcard
@@ -57,4 +62,29 @@ header {
     width: 460px;
     text-align: center;
     padding: 5px;
+}
+#zdjęcie4{
+
+}
+#zdjęcie4:hover{
+
+    animation-name: appear ;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+
+ }
+@keyframes  appear  {
+
+    from{
+        scale: 1;
+        width: 450px;
+
+    }
+    to{
+        scale: 1.5;
+        width:1500px;
+        animation-fill-mode: forwards;
+    }
+    
 }

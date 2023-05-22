@@ -1,0 +1,50 @@
+*{
+    background-color: #EEEEEE;
+}
+#kontener{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#blok_górny_1{
+    width: 400px;
+    float:left;
+}
+#blok_górny_2{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+
+}
+#blok_górny_1, #blok_górny_2, #stopka{
+    background-color: #C0c0c0;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#baner{
+    background-color: #DDDDDD;
+    height: 200px;
+}
+ #blok_górny_2 > a{
+    color: #555555;
+    margin: 50px;
+    font-size: 200%;
+}
+#blok_główny{
+    margin: 50px;
+}
+#stopka{
+    text-align: right;
+}
+table{
+    text-align: left;
+}
+#anim{
+    background-color:#DDDDDD ;
+}
+#logo{
+    background-color: #c0c0c0;
+}
