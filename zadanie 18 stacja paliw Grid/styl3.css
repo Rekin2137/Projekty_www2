@@ -1,0 +1,52 @@
+body{
+    font-family: Helvetica;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    margin: 0;
+}
+#baner-lewy, #blok-lewy{
+    background-color: rgb(130, 69, 85);
+    color:white;
+height:200px;
+text-align: center;
+
+}
+#baner-prawy,#blok-prawy{
+    background-color: rgb(130,69,85);
+color:white;
+    height: 200px;
+    text-align: center;
+
+}
+#blok-glowny,#stopka {
+    background-color: rgb(240,234,226);
+    padding: 120px;
+clear: both
+}
+table,td,td {
+    border: 1px rgb(130, 69, 85) solid;
+    color: rgb(130, 69, 85);
+    padding: 10px;
+
+}
+a{
+    color: rgb(240,234,226);
+}
+/* grid */
+#baner-lewy{
+    display: grid;
+    grid-column: 1/2;
+}
+#baner-prawy{
+    grid-column: -1/2;
+}
+#blok-glowny{
+    grid-column: 1/-1;
+}
+#blok-lewy{
+    grid-column: 1/3;
+}
+#stopka{
+    grid-column: 1/4;
+}
